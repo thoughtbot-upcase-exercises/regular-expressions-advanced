@@ -1,7 +1,4 @@
-require "advanced_regexes"
+require "phone_number_formatter"
 
 RSpec.configure do |c|
-  # Modules are used only to group the exercises. Including them in the RSpec
-  # examples means the specs can call them directly.
-  c.include(AdvancedRegexes)
 end
